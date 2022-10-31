@@ -15,7 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
-    background-image: url(/images/background.png);
+    background-image: url("/images/background.png");
     overflow: hidden;
 }
 
@@ -82,7 +82,7 @@ button {
 .hole::after {
     content: '';
     display: block;
-    background-image: url(/images/sand1.png);
+    background-image: url("/images/sand1.png");
     
     position: absolute;
     width: 100%;
@@ -94,7 +94,7 @@ button {
 }
 
 .mole {
-    background-image: url(/images/yoda1.png);
+    background-image: url("/images/yoda1.png");
     position: absolute;
     top:100%;
     width: 100%;
